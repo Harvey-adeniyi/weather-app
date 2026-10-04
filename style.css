@@ -1,0 +1,66 @@
+.Application {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    
+}
+body {
+    background: linear-gradient(135deg  , #72EDF2 10%, #5151E5 100%);
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     height: 100vh;
+     margin: 0;
+     font-size: 1.5em;
+    
+    font-family: Arial, sans-serif;
+
+}
+.card {
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    height: 400px;
+    
+}
+   .temperature {
+    font-size: 1.5em;
+    margin: 20px 0;
+    color: white;
+}
+.weather-icon {
+    width: 100px;
+    height: 100px;
+} 
+.city-input {
+    padding: 10px;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.search {
+    padding: 10px 20px;
+    font-size: 1em;
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.celcius {
+    color: white;
+    font-size: 1.5em;
+    margin-top: 10px;
+}
+.Humidity {
+    color: white;
+    font-size: 1.5em;
+     margin-top: 10px;
+    margin-top: 10px;
+}
